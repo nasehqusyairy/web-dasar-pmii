@@ -3,27 +3,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
+  <title>DATA BUKU</title>
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
   <h1>BUKU</h1>
-  <form action="post">
+  <form>
+    <label for="id">id</label>
+    <input type="text" name="ID" id="ID">
     <label for="Gambar">Gambar</label>
     <input type="file" name="gambar" id="gambar">
-    <br>
-    <br>
     <label for="Judul">Judul</label>
     <input type="text" name="judul" id="judul">
-    <br>
-    <br>
     <label for="Kategori">Kategori</label>
     <input type="text" name="kategori" id="kategori">
-    <br>
-    <br>
-    <button type="submit">Submit</button>
+    <button type="submit" class="tombol">Submit</button>
   </form>
   <h1>Daftar Buku</h1>
-  <table border="1", cellspacing="0", cellpadding="10">
+  <table>
     <thead>
       <tr>
         <th>No</th>
@@ -40,28 +37,28 @@
         <th>Kajian Kritis DAS Kapital Carl Max</th>
         <th>Filsafat</th>
         <th>
-          <a href=""></a><button name="tombol-hapus">hapus</button>
-          <a href=""></a><button name="tombol-edit">edit</button>
+          <button class="tombol tombol-hapus">hapus</button>
+          <button class="tombol tombol-edit">edit</button>
         </th>
       </tr>
       <tr>
         <th>3</th>
-        <th><img src="assets/img/sejarahdunia.jpeg" alt="buku1" srcset=""></th>
+        <th><img src="assets/img/sejarahdunia.jpeg" alt="buku2" srcset=""></th>
         <th>Sejarah Dunia Yang Disembunyikan</th>
         <th>Sejarah</th>
         <th>
-          <a href=""></a><button name="tombol-hapus">hapus</button>
-          <a href=""></a><button name="tombol-edit">edit</button>
+          <button class="tombol tombol-hapus">hapus</button>
+          <button class="tombol tombol-edit">edit</button>
         </th>
       </tr>
       <tr>
         <th>1</th>
-        <th><img src="assets/img/ilmuhukum.jpeg" alt="buku1" srcset=""></th>
+        <th><img src="assets/img/ilmuhukum.jpeg" alt="buku3" srcset=""></th>
         <th>Pengantar Ilmu Hukum</th>
         <th>Hukum</th>
         <th>
-          <a href=""></a><button name="tombol-hapus">hapus</button>
-          <a href=""></a><button name="tombol-edit">edit</button>
+          <button class="tombol tombol-hapus">hapus</button>
+          <button class="tombol tombol-edit">edit</button>
         </th>
       </tr>
     </tbody>
