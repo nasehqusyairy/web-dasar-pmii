@@ -1,0 +1,49 @@
+table{
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+
+.tombol{
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    border: 0;
+    outline: 0;
+}
+
+.tombol:hover{
+    cursor: pointer;
+}
+
+.tombol-edit{
+    background-color: yellow;
+    color: black;
+}
+
+.tombol-edit:hover{
+    background-color: orange;
+    color: white;
+}
+
+.tombol-edit:active{
+    background-color: darkorange;
+    color: white;
+}
+
+.tombol-hapus{
+    background-color: red;
+    color: white;
+}
+
+.tombol-hapus:hover{
+    background-color: darkred;
+    color: white;
+}
+
+.tombol-hapus:active{
+    background-color: brown;
+    color: white;
+}
